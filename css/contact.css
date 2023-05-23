@@ -1,0 +1,49 @@
+/* import fonts from fonts.css file */
+
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+body {
+    font-family: 'Roboto', cursive;
+    min-height: 100vh;
+    height: fit-content;
+    /* background-color: #EDF3F9; */
+}
+
+#particles-js {
+    height: 85%;
+    width: 100%;
+    position: absolute;
+}
+
+.form-row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.form {
+    font-family: 'Roboto';
+}
+
+.about-heading {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.address-container {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.address-container .address-item {
+    margin-bottom: 1rem;
+}

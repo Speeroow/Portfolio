@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #4458dc;
+    --primary-color2: #854fee;
+    --title-color: #141313;
+    --text-color: #777777;
+    --border-color: #201f1f17;
+    --gradient-color: linear-gradient(90deg, #4458dc 0%, #006aff 100%);
+    --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    /* font family variables. */
+    --roboto: 'Roboto', sans-serif;
+}
+
+body {
+    border: 1rem solid rgba(20, 157, 221, 0.3);
+    font-family: 'Roboto', cursive;
+    min-height: 100vh;
+    height: fit-content;
+    background-image: url(../img/cover/body-bg.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.about-heading {
+    margin-top: 2rem;
+}
+
+.about-container {
+    margin-top: 3.5rem;
+}
+
+.about-heading p {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    line-height: 3.5rem;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.skill-icon img {
+    transform: scale(0.7);
+    width: 4rem;
+    height: 4rem;
+}
+
+.skill-icon {
+    background-color: rgb(3, 3, 3);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.p-text {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.skills-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.list-group {
+    max-width: 20rem;
+}
